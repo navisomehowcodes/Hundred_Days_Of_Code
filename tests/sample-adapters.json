@@ -1,0 +1,109 @@
+{
+  "50.2": {
+    "match": "descriptive",
+    "output": "*****\n ****\n  ***\n   **\n    *",
+    "note": "The second expected output is an indentation note. Compare with the first diagram, including every leading space."
+  },
+  "52.1": {
+    "match": "descriptive",
+    "output": "\n*\n\n*\n*\n*\n\n*\n*\n*\n*\n*\n\n*\n*\n*\n\n*\n\n",
+    "note": "The expected output describes the picture. Use the vertical groups and blank lines in the statement."
+  },
+  "54.1": {
+    "match": "descriptive",
+    "output": "   *\n  ***\n *****\n*******\n *****\n  ***\n   *",
+    "note": "The expected output describes the picture. Compare the seven indented diagram rows."
+  },
+  "121.1": {
+    "after": {
+      "info.txt": "Name: Rahul\nAge: 23\n"
+    },
+    "note": "Run the published labelled input and also check the saved record."
+  },
+  "122.1": {
+    "input": "",
+    "before": {
+      "info.txt": "Name: Rahul\nAge: 23"
+    },
+    "note": "Materialize the named text file, decoding the written newline escape."
+  },
+  "123.1": {
+    "input": "",
+    "before": {
+      "sample.txt": "Hello world\nThis is C programming"
+    },
+    "note": "The described file has one newline and no final newline."
+  },
+  "124.1": {
+    "input": "source.txt\ndestination.txt\n",
+    "before": {
+      "source.txt": "Learning C File Handling"
+    },
+    "after": {
+      "source.txt": "Learning C File Handling",
+      "destination.txt": "Learning C File Handling"
+    },
+    "note": "The destination filename comes from the expected output. Compare both files."
+  },
+  "125.1": {
+    "input": "This is appended text.\n",
+    "before": {
+      "data.txt": "Hello world"
+    },
+    "after": {
+      "data.txt": "Hello world\nThis is appended text.\n"
+    },
+    "note": "The fixture starts without a trailing newline. Verify that the appended sentence occupies a new line."
+  },
+  "126.1": {
+    "input": "sample.txt\n",
+    "before": {
+      "sample.txt": "One line\nAnother line"
+    },
+    "output": "File opened successfully.\nOne line\nAnother line",
+    "match": "descriptive",
+    "note": "The source omits the content and says to display it. Use a two-line fixture to check the stated behavior."
+  },
+  "126.2": {
+    "input": "nofile.txt\n",
+    "note": "Run in a fresh directory where nofile.txt is absent."
+  },
+  "127.1": {
+    "input": "",
+    "before": {
+      "input.txt": "Hello World\nC programming"
+    },
+    "after": {
+      "output.txt": "HELLO WORLD\nC PROGRAMMING",
+      "input.txt": "Hello World\nC programming"
+    },
+    "output": "",
+    "note": "The published expected value is output.txt's content. Compare that file and check for silent stdout."
+  },
+  "128.1": {
+    "input": "",
+    "before": {
+      "text.txt": "Welcome to C language"
+    },
+    "note": "Materialize the named file."
+  },
+  "129.1": {
+    "input": "",
+    "before": {
+      "numbers.txt": "10 20 30 40 50"
+    },
+    "note": "Materialize the named file."
+  },
+  "130.1": {
+    "after": {
+      "students.txt": "Asha 101 85\nRavi 102 92\n"
+    },
+    "note": "Run the published labelled record list and also check the saved records."
+  },
+  "142.1": {
+    "input": "Asha 1 85\nRavi 2 70\nNeha 3 90\nAman 4 80\nMira 5 72\n",
+    "output": "Name\tRoll\tMarks\nAsha\t1\t85\nRavi\t2\t70\nNeha\t3\t90\nAman\t4\t80\nMira\t5\t72",
+    "match": "descriptive",
+    "note": "The source supplies neither records nor literal output. Check five identified test records against a tab-separated table."
+  }
+}

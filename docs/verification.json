@@ -1,0 +1,3944 @@
+{
+  "compiler": "gcc (Rev5, Built by MSYS2 project) 16.1.0",
+  "flags": [
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-pedantic",
+    "-Werror",
+    "-lm"
+  ],
+  "from_day": 1,
+  "through_day": 96,
+  "summary": {
+    "compiled": 146,
+    "programs": 146,
+    "samples": {
+      "pass": 247,
+      "descriptive": 5,
+      "fail": 7,
+      "untested": 0
+    },
+    "edges": {
+      "pass": 300,
+      "descriptive": 0,
+      "fail": 0,
+      "untested": 0
+    }
+  },
+  "results": [
+    {
+      "day": 1,
+      "id": 1,
+      "path": "Day01/Question_1.c",
+      "source_sha256": "3edec1a0de9fe8811b220502debddf7d564b0710853912f51e5217a8929ff41b",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "opposite fractions"
+        }
+      ]
+    },
+    {
+      "day": 1,
+      "id": 2,
+      "path": "Day01/Question_2.c",
+      "source_sha256": "b23914d671c192c060651cfcb8684923067a25d9ef8324f1a4488ac537c6a047",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "zero divisor"
+        },
+        {
+          "status": "pass",
+          "case": "negative truncated quotient"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "id": 3,
+      "path": "Day02/Question_3.c",
+      "source_sha256": "fbd4f7e1dd189a9df99b130e42cd7f47c37aea4cdeae49fae41af60c425dc8bf",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "flat rectangle"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "id": 4,
+      "path": "Day02/Question_4.c",
+      "source_sha256": "4c33c29e68d1e55e6c84e9e8562fc35dd625631df4e7ef8ce00a3c4afce19fe9",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "fail",
+          "details": [
+            {
+              "stream": "stdout",
+              "expected": "Area=153.94, Circumference=43.96",
+              "actual": "Area=153.94, Circumference=43.98\n"
+            }
+          ],
+          "case": 1,
+          "source_issue": "Using the same value of π for both formulas gives a circumference of 43.98."
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "zero radius"
+        },
+        {
+          "status": "pass",
+          "case": "seven-unit radius"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "id": 5,
+      "path": "Day03/Question_5.c",
+      "source_sha256": "d91ce1ab91861937351993d5f9cbaa0c4163ec5c6c1d832d35ca879d04310229",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "scales coincide"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "id": 6,
+      "path": "Day03/Question_6.c",
+      "source_sha256": "7cd70c7d2dcb90a5df3882242ded2a5c69d1c3624bcf4dc4325479d83bdde700",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "equal values"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "id": 7,
+      "path": "Day04/Question_7.c",
+      "source_sha256": "9de707350d6ba99465ab6dcd5b3a624e9a3a22d537838354195a735f22cc7836",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "opposite signs at limits"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "id": 8,
+      "path": "Day04/Question_8.c",
+      "source_sha256": "d6d257c3181ef0b3b7b5757c621d1a7e54091b7b4f042efcf0bd3598e1757e9b",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty sum"
+        },
+        {
+          "status": "pass",
+          "case": "wide result"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "id": 9,
+      "path": "Day05/Question_9.c",
+      "source_sha256": "af2d880a572eeb8d90ef6e5ca0ccf51089b0cb413b06a6a5131521e534336ece",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "fail",
+          "details": [
+            {
+              "stream": "stdout",
+              "expected": "Simple Interest=1050, Compound Interest=1125.76",
+              "actual": "Simple Interest=1050, Compound Interest=1125.22\n"
+            }
+          ],
+          "case": 2,
+          "source_issue": "Annual compounding gives 5000 × (1.07³ − 1) = 1125.215 before rounding to cents."
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "zero time"
+        },
+        {
+          "status": "pass",
+          "case": "whole annual periods"
+        },
+        {
+          "status": "pass",
+          "case": "independent decimal interest calculation"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "id": 10,
+      "path": "Day05/Question_10.c",
+      "source_sha256": "44f0ea0d69a19739f9a4c4fe7102af56452d78fe348d87c27c50d4d2305d0fcb",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "minute rollover"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "id": 11,
+      "path": "Day06/Question_11.c",
+      "source_sha256": "eb1bede505e7c97361098d5da19a0bc6050dd39d88a6c4164fd3978c98abb62e",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "negative odd"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "id": 12,
+      "path": "Day06/Question_12.c",
+      "source_sha256": "edc3e26e66e3fc12d12d0d552beed9c22f25a50570c918c7db0067744f169df2",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "negative one"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "id": 13,
+      "path": "Day07/Question_13.c",
+      "source_sha256": "314dfad268be315720dd79f8f6db91b0ffce672faaee7c6227b964fe09530ad1",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "ordinary century"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "id": 14,
+      "path": "Day07/Question_14.c",
+      "source_sha256": "f6e6ce123d42967fc66a15ac466a5f7fdd43b7597607884b152c26445a2683a1",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "uppercase vowel"
+        },
+        {
+          "status": "pass",
+          "case": "nonletter"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "id": 15,
+      "path": "Day08/Question_15.c",
+      "source_sha256": "647922e34eb7c24f75d363b194ebe5d56440baf813283d003378ec8b1351afb9",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        },
+        {
+          "status": "pass",
+          "case": 4
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "space"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "id": 16,
+      "path": "Day08/Question_16.c",
+      "source_sha256": "f8ac6c9a728f1361151d163b7092ef599d5113337617c518c06f73cc9d83af13",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "maximum tie"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "id": 17,
+      "path": "Day09/Question_17.c",
+      "source_sha256": "1693d2ec0e3dd62022e74895afd851e65424975d5d18f71a6ae27d60f70d8206",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "linear equation"
+        },
+        {
+          "status": "pass",
+          "case": "two opposite roots"
+        },
+        {
+          "status": "pass",
+          "case": "complex conjugate roots"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "id": 18,
+      "path": "Day09/Question_18.c",
+      "source_sha256": "10b121558a991621196aa05ba0b0eef6e45a518927ddb6159d005a7025f6407e",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        },
+        {
+          "status": "pass",
+          "case": 4
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "C grade boundary"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "id": 19,
+      "path": "Day10/Question_19.c",
+      "source_sha256": "dfbcfa18145f8ba28f584980f4c37c4b98c68f24e85e7ea327248d01b58d5120",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "degenerate triangle"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "id": 20,
+      "path": "Day10/Question_20.c",
+      "source_sha256": "b7e01b0a81995dd876e3c40a755a941cd838f8f815e978eb6d9df7e2a9e69809",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "last day"
+        },
+        {
+          "status": "pass",
+          "case": "out of range"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "id": 21,
+      "path": "Day11/Question_21.c",
+      "source_sha256": "ca07973e53fb58b5ce35ac0481dfebafda14cceef1fb048710215b064d21c48b",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "invalid month"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "id": 22,
+      "path": "Day11/Question_22.c",
+      "source_sha256": "0d46374c9dd0458c931657130b37efdf99fd7acfe067caff56e0aba0c7eb514c",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "complete loss"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "id": 23,
+      "path": "Day12/Question_23.c",
+      "source_sha256": "037cb1cc3830da0d8b5750a8ebafa55daea32e2fb90da9d4e64037870a504311",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        },
+        {
+          "status": "pass",
+          "case": 4
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "last payable day"
+        },
+        {
+          "status": "pass",
+          "case": "first higher rate"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "id": 24,
+      "path": "Day12/Question_24.c",
+      "source_sha256": "ed69a1cfc2174a125cfeff0e66e5000f9f8930621ba088cdcbbf7fdc6dfbe8ce",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "upper tariff"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "id": 25,
+      "path": "Day13/Question_25.c",
+      "source_sha256": "f3e0492587e130210432190bb56821ba65a7dcf9a5e2a78bf21377b4cf28e48b",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "zero remainder divisor"
+        },
+        {
+          "status": "pass",
+          "case": "fractional quotient"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "id": 26,
+      "path": "Day13/Question_26.c",
+      "source_sha256": "7b192a61fc5e227274eeac776a2e3e2399e909470ac4e7b9c9d9ea22de975339",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty sequence"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "id": 27,
+      "path": "Day14/Question_27.c",
+      "source_sha256": "9b955c21a391f5ca74a08ac279992912db9e0fca00efba8fef0c7a89e304357a",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "no odd numbers"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "id": 28,
+      "path": "Day14/Question_28.c",
+      "source_sha256": "67054f6a2a72ca63bd5c5ba2150c19fdb62eca349c9d781454246d0769684bf2",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty product"
+        },
+        {
+          "status": "pass",
+          "case": "unrepresentable product"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "id": 29,
+      "path": "Day15/Question_29.c",
+      "source_sha256": "4a4d6e304bf4d82e732e632e0fd08f1f4e065ca5145b908e96d885ef4f199ac0",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "zero factorial"
+        },
+        {
+          "status": "pass",
+          "case": "overflow boundary"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "id": 30,
+      "path": "Day15/Question_30.c",
+      "source_sha256": "7b96edafd51435844f5445f0569c489377be1370ae72d28f1b579acf58e0a1e3",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "signed trailing zeros"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "id": 31,
+      "path": "Day16/Question_31.c",
+      "source_sha256": "504b1e50976e3915c4e881732c8dc3dd1cc496cafddbc003e748e1fdd375762e",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "zero"
+        },
+        {
+          "status": "pass",
+          "case": "negative value"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "id": 32,
+      "path": "Day16/Question_32.c",
+      "source_sha256": "4df81c52de331574713fc37e8bff25ad1854cb7b2f7de846581e3f4223ac0a76",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "negative symmetric digits"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "id": 33,
+      "path": "Day17/Question_33.c",
+      "source_sha256": "9ab51109fcf80124575da40a61767ce72cab5a94a0f7e9744904fdf95c536d78",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "four-digit Armstrong"
+        },
+        {
+          "status": "pass",
+          "case": "zero"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "id": 34,
+      "path": "Day17/Question_34.c",
+      "source_sha256": "7d531667b16b91157747fd320a70dca762f9c437603d5d2835ba5225d6782a29",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "one"
+        },
+        {
+          "status": "pass",
+          "case": "square of a prime"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "id": 35,
+      "path": "Day18/Question_35.c",
+      "source_sha256": "4d84a53ce3d8ac9af94c0defc49c6e196490cb29fa0808e9aa5548207d63b071",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "perfect square"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "id": 36,
+      "path": "Day18/Question_36.c",
+      "source_sha256": "ae4459eaacca14a7a8a0f732c2ea08ba6e541c2f5595a63a80f74ec65dc9af5d",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "negative and zero"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "id": 37,
+      "path": "Day19/Question_37.c",
+      "source_sha256": "96cee3ddf4111dec143e62bebdd2281b91ccbea760142c21f9e9d75c95d4926f",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "two zeros"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "id": 38,
+      "path": "Day19/Question_38.c",
+      "source_sha256": "736ec4f30084f6f433f100baca9316a1e25a2597dc297a1c08192df35d507048",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "negative value"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "id": 39,
+      "path": "Day20/Question_39.c",
+      "source_sha256": "59c8c2dbfd1167ef908b11b0ac3add8a77f5123646bbf3d0955a6f8e31f1dd7a",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "negative with internal even digit"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "id": 40,
+      "path": "Day20/Question_40.c",
+      "source_sha256": "5a1f9af4baebfb42e681f964192eb126d5216de856621f0ddb4cc86a939e8062",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "leading zeros"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "id": 41,
+      "path": "Day21/Question_41.c",
+      "source_sha256": "3c990a2127626c8d42fee822d9843f3a9b6af91e3a82c7196bc8221580d21129",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "trailing zero"
+        },
+        {
+          "status": "pass",
+          "case": "single digit"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "id": 42,
+      "path": "Day21/Question_42.c",
+      "source_sha256": "55e5754d609ae884dcb3c20f92d2ea44da535ed2a014ae85a65fafcef2822c6f",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "one"
+        },
+        {
+          "status": "pass",
+          "case": "larger perfect number"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "id": 43,
+      "path": "Day22/Question_43.c",
+      "source_sha256": "0a90cc21a0e33935a3777b525e22ed03672687244dd725fb70725631970b29cf",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "zero factorial contributes one"
+        },
+        {
+          "status": "pass",
+          "case": "five-digit strong number"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "id": 44,
+      "path": "Day22/Question_44.c",
+      "source_sha256": "ae2e50f45113ecfce416b74d97d90b92bb5feb58ddb72f429215b0685d549b75",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "fail",
+          "details": [
+            {
+              "stream": "stdout",
+              "expected": "Approximate sum: 3.3",
+              "actual": "Approximate sum: 2.6\n"
+            }
+          ],
+          "case": 1,
+          "source_issue": "Adding the 3 terms in the statement gives 31/12 before rounding."
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "only first term"
+        },
+        {
+          "status": "pass",
+          "case": "first two terms"
+        },
+        {
+          "status": "pass",
+          "case": "exact rational reference for 3 terms"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "id": 45,
+      "path": "Day23/Question_45.c",
+      "source_sha256": "a079f131f4a2a510fc73324bbefb06d24bfcd69cf2fbdc5783542e58129a78d4",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "fail",
+          "details": [
+            {
+              "stream": "stdout",
+              "expected": "Approximate sum: 1.56",
+              "actual": "Approximate sum: 1.78\n"
+            }
+          ],
+          "case": 1,
+          "source_issue": "Adding the 3 terms in the statement gives 412/231 before rounding."
+        },
+        {
+          "status": "fail",
+          "details": [
+            {
+              "stream": "stdout",
+              "expected": "Approximate sum: 2.22",
+              "actual": "Approximate sum: 2.84\n"
+            }
+          ],
+          "case": 2,
+          "source_issue": "Adding the 5 terms in the statement gives 20798/7315 before rounding."
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "first term rounded"
+        },
+        {
+          "status": "pass",
+          "case": "exact rational reference for 3 terms"
+        },
+        {
+          "status": "pass",
+          "case": "exact rational reference for 5 terms"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "id": 46,
+      "path": "Day23/Question_46.c",
+      "source_sha256": "3b544934fb46b46ad812e6fe8c9d9f5ea79a0049026e560f25b965cf37869bd8",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "five complete rows including corners"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "id": 47,
+      "path": "Day24/Question_47.c",
+      "source_sha256": "9b58d812874f6f2eca4368a758b760368c18447d54b8e0c13a4f19b7102cc24e",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "top and bottom widths"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "id": 48,
+      "path": "Day24/Question_48.c",
+      "source_sha256": "029e9b1b944c80a14ec571c7eead3608a0e987c11a72b374c56054d876fec26c",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "digit endpoints"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "id": 49,
+      "path": "Day25/Question_49.c",
+      "source_sha256": "a10b4363f36ac8ba141071beeff9d5e20b17cf275da07f4b30e63fab943248c3",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "first digit changes each row"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "id": 50,
+      "path": "Day25/Question_50.c",
+      "source_sha256": "0fc4bd25d43828c2747605193370238d1cb3608af0c2a4f21146abf3ff8b26c3",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "descriptive",
+          "note": "The second expected output is an indentation note. Compare with the first diagram, including every leading space.",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "spaces preserved on last row"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "id": 51,
+      "path": "Day26/Question_51.c",
+      "source_sha256": "7998ef3c98746ffa117ab8fbbecf9ac80406e961ebe7173120acf3bfe5edd106",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "right-aligned digits"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "id": 52,
+      "path": "Day26/Question_52.c",
+      "source_sha256": "f16c5fd81f00c18c128074f7a167c4fa8ca5806e77a98f7355b68c31fdad8159",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "descriptive",
+          "note": "The expected output describes the picture. Use the vertical groups and blank lines in the statement.",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "vertical groups with separators"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "id": 53,
+      "path": "Day27/Question_53.c",
+      "source_sha256": "d49d6b8ed979afd6a231acedade5b8f184ced956542ecffe25008f6c3004719e",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "single widest middle row"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "id": 54,
+      "path": "Day27/Question_54.c",
+      "source_sha256": "e58efabeafdeee9ed024f572c9394aa7580441ed3bb49f3ef8bdf0c7857384b5",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "descriptive",
+          "note": "The expected output describes the picture. Compare the seven indented diagram rows.",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "symmetric diamond with indentation"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "id": 55,
+      "path": "Day28/Question_55.c",
+      "source_sha256": "72763322b88cb3bd06e9e31703f6f67db3d38fbc7b3b8628cc323f496dd57bf0",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "no primes"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "id": 56,
+      "path": "Day28/Question_56.c",
+      "source_sha256": "4278bcf5081dcf4077c4954753ba8180a11b08676f9bc1af6fa15e504e7259d2",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty array"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "id": 57,
+      "path": "Day29/Question_57.c",
+      "source_sha256": "7a5193950f6226451e12d5da6215274ca18af3005da04e402278a1e9ab072dea",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "wide signed sum"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "id": 58,
+      "path": "Day29/Question_58.c",
+      "source_sha256": "fa0a5bf016258077c7b5f1a38159439284d82c1e040b081f309531dbc39ae26f",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "all negative"
+        },
+        {
+          "status": "pass",
+          "case": "empty array"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "id": 59,
+      "path": "Day30/Question_59.c",
+      "source_sha256": "a0f8446f1f59e068fc7f7c83cf859df878609dbac33f4dc6f3889ecb4781cb26",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "negative odds and zero"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "id": 60,
+      "path": "Day30/Question_60.c",
+      "source_sha256": "6719fe2797ad39b0a420df8abbf72a6b52b3c09309204dda51199232b21d7b4c",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty array"
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "id": 61,
+      "path": "Day31/Question_61.c",
+      "source_sha256": "4626fb4f3a88ee55220fff90a08b2e4c6a3faae2005bc21ca7b85be31e62be7c",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "first duplicate"
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "id": 62,
+      "path": "Day31/Question_62.c",
+      "source_sha256": "b395631e6a0375c9eedfc062701eb1b48a3f7dcd1239367c494c7adaf2eef5d2",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "odd length"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 32,
+      "id": 63,
+      "path": "Day32/Question_63.c",
+      "source_sha256": "a743258e621dad323f028b62329dd1880ab9e868abea262063229088d8fe790c",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty first input"
+        }
+      ]
+    },
+    {
+      "day": 32,
+      "id": 64,
+      "path": "Day32/Question_64.c",
+      "source_sha256": "aa5d31a5666d3384d602cf1d477c790c1b0701ca73a4065abec245bf9b42803c",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "zero itself"
+        },
+        {
+          "status": "pass",
+          "case": "tied negative digits"
+        }
+      ]
+    },
+    {
+      "day": 33,
+      "id": 65,
+      "path": "Day33/Question_65.c",
+      "source_sha256": "49a0ba60855003db4f1183ce09976e819bfb95f4d4c0c2685f40a6e8ece08d63",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "duplicate at start"
+        }
+      ]
+    },
+    {
+      "day": 33,
+      "id": 66,
+      "path": "Day33/Question_66.c",
+      "source_sha256": "d5bb01cd953b0a8e8dc595ab2af1dd7cf8fcd56f9a57cbc9ad8fd02b41f1546d",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "insert into empty array"
+        }
+      ]
+    },
+    {
+      "day": 34,
+      "id": 67,
+      "path": "Day34/Question_67.c",
+      "source_sha256": "83c83cc10d153b89e59ab5bdbcdb3a1495a71ededfd0fbdd3f084f2617515a0d",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "append position"
+        }
+      ]
+    },
+    {
+      "day": 34,
+      "id": 68,
+      "path": "Day34/Question_68.c",
+      "source_sha256": "dc4572c21c7b1d4ad4fc08cb619af7b40d81077598f2a48c90d5aacd153f63cc",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "remove only item"
+        }
+      ]
+    },
+    {
+      "day": 35,
+      "id": 69,
+      "path": "Day35/Question_69.c",
+      "source_sha256": "0e8ecad43a6f7553215cf49df4dccdf3e3ab1e84fca313e9fa17023f6f5d894f",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "duplicate maximum"
+        },
+        {
+          "status": "pass",
+          "case": "all equal"
+        }
+      ]
+    },
+    {
+      "day": 35,
+      "id": 70,
+      "path": "Day35/Question_70.c",
+      "source_sha256": "c0fe3a23a25934ec4b2b1af4dc6966e46baee451e17a77624c22dbadfcb345e5",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "wrap several rotations"
+        },
+        {
+          "status": "pass",
+          "case": "empty rotation"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 36,
+      "id": 71,
+      "path": "Day36/Question_71.c",
+      "source_sha256": "4ebba9e2d21fafbc1c38d23d2e66709d0aeedb6b3e1039eae9dcc1ef33941acb",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "one column"
+        }
+      ]
+    },
+    {
+      "day": 36,
+      "id": 72,
+      "path": "Day36/Question_72.c",
+      "source_sha256": "a9d0dc51d368e0918693bfd8be3100fbf1d9f73fa437b197fe1252472cbcbfe2",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "cancel entries"
+        }
+      ]
+    },
+    {
+      "day": 37,
+      "id": 73,
+      "path": "Day37/Question_73.c",
+      "source_sha256": "5151e50e18ec1bc9551b00507d916d7dc1b439f1ae4f8da1a52bb48ff5556754",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "single-column row sums"
+        }
+      ]
+    },
+    {
+      "day": 37,
+      "id": 74,
+      "path": "Day37/Question_74.c",
+      "source_sha256": "654358ebe7fa9858e337b0fa2dc26a3cb0f2c816d1c53b135a4c30b11cb39041",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "single row"
+        }
+      ]
+    },
+    {
+      "day": 38,
+      "id": 75,
+      "path": "Day38/Question_75.c",
+      "source_sha256": "3d43c8f7bc499addea466ac39b233e8dc357c2b57bbb8d1aa0e791280fc82a80",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "unequal dimensions"
+        }
+      ]
+    },
+    {
+      "day": 38,
+      "id": 76,
+      "path": "Day38/Question_76.c",
+      "source_sha256": "af9f8c5fed4516311cff9bbe09a265ce89d2ac2f86b968b5d22e80350e1b3a73",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "rectangular matrix"
+        }
+      ]
+    },
+    {
+      "day": 39,
+      "id": 77,
+      "path": "Day39/Question_77.c",
+      "source_sha256": "7d10cc445433852fe3e15b9c40226f1903e64f41c6d152316363eea85584dd69",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "off-diagonal repeats allowed"
+        }
+      ]
+    },
+    {
+      "day": 39,
+      "id": 78,
+      "path": "Day39/Question_78.c",
+      "source_sha256": "1e70f99946de015d629f19411805eec5a4a6b2d9d8abf20f7d30f919f9398b91",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "negative diagonal"
+        }
+      ]
+    },
+    {
+      "day": 40,
+      "id": 79,
+      "path": "Day40/Question_79.c",
+      "source_sha256": "70baf14e33b188cbd73a8f3e81bf81b1d264a8fc21a823e3071a41eab38e3641",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "rectangular zigzag"
+        }
+      ]
+    },
+    {
+      "day": 40,
+      "id": 80,
+      "path": "Day40/Question_80.c",
+      "source_sha256": "d1586f6330c11a9a0cae637b27405be913017069c0701b987605cfa148552f07",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "incompatible inner dimensions"
+        },
+        {
+          "status": "pass",
+          "case": "overflow detected"
+        }
+      ]
+    },
+    {
+      "day": 41,
+      "id": 81,
+      "path": "Day41/Question_81.c",
+      "source_sha256": "13444c5f86163fed1550d792a54228be44305501070c1ce53b4ea76bdd89af7b",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty line"
+        }
+      ]
+    },
+    {
+      "day": 41,
+      "id": 82,
+      "path": "Day41/Question_82.c",
+      "source_sha256": "64e4878d46da65c1d90bbfa59e6d39a7b51f5700982542c8cefd97db04933189",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "space on its own line"
+        }
+      ]
+    },
+    {
+      "day": 42,
+      "id": 83,
+      "path": "Day42/Question_83.c",
+      "source_sha256": "324e5eff0fcab153a305671e749aa2e8648506319e53762c7d6b57cc25d65266",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "nonletters and uppercase"
+        }
+      ]
+    },
+    {
+      "day": 42,
+      "id": 84,
+      "path": "Day42/Question_84.c",
+      "source_sha256": "489e3446b36a72247d46f847215e7c7d2136f22d628145b88460adc46982c133",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "punctuation unchanged"
+        }
+      ]
+    },
+    {
+      "day": 43,
+      "id": 85,
+      "path": "Day43/Question_85.c",
+      "source_sha256": "c8eb5093d4ce3b014ed1e9bdc83e4615bb2a77bbeb5c505c790e7d7e72272772",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "preserve outside spaces"
+        }
+      ]
+    },
+    {
+      "day": 43,
+      "id": 86,
+      "path": "Day43/Question_86.c",
+      "source_sha256": "a36894bae4446a0e39db22bcf49fde57d10ee6fac9c2171c74f273d367135f63",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty palindrome"
+        }
+      ]
+    },
+    {
+      "day": 44,
+      "id": 87,
+      "path": "Day44/Question_87.c",
+      "source_sha256": "9a857db20c99490af82b6396401d12998fe85b638973575137b8332e89a189fe",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "repeated spaces and punctuation"
+        }
+      ]
+    },
+    {
+      "day": 44,
+      "id": 88,
+      "path": "Day44/Question_88.c",
+      "source_sha256": "6bdd6000657945045b8b709bb82651e655831197d8911383cb79270da0202bbe",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "adjacent trailing spaces"
+        }
+      ]
+    },
+    {
+      "day": 45,
+      "id": 89,
+      "path": "Day45/Question_89.c",
+      "source_sha256": "1bb984a52d42aa8af869df1e50d99d0ea1ad2e59c60fb00dccce337087332dee",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "space as target"
+        }
+      ]
+    },
+    {
+      "day": 45,
+      "id": 90,
+      "path": "Day45/Question_90.c",
+      "source_sha256": "3e808d18022ac8fff9f0f29993748ced6abbbb556f58f9640291cf307d14c396",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "mixed with digit"
+        }
+      ]
+    },
+    {
+      "day": 46,
+      "id": 91,
+      "path": "Day46/Question_91.c",
+      "source_sha256": "42b28ddf0ab4b11afd0755eee22145c1f0ec54940c48ee5737da55ad71fc0b5e",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "all vowels"
+        }
+      ]
+    },
+    {
+      "day": 46,
+      "id": 92,
+      "path": "Day46/Question_92.c",
+      "source_sha256": "6b61d5d52e2bff072f4a28f974c731c5efc0f89f475ae74452f9caf042a6d19c",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "first by original position"
+        },
+        {
+          "status": "pass",
+          "case": "no repeat"
+        }
+      ]
+    },
+    {
+      "day": 47,
+      "id": 93,
+      "path": "Day47/Question_93.c",
+      "source_sha256": "ed7cbaa250bdf3d73bc7547769b416e7cf04cba184f029236a00e8edd2cce00b",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "different multiplicities"
+        }
+      ]
+    },
+    {
+      "day": 47,
+      "id": 94,
+      "path": "Day47/Question_94.c",
+      "source_sha256": "2aa0e0315759262106a0f9baac9e5efedd579b5191485e5e0c1c22c18127798e",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "first longest tie and trailing whitespace"
+        }
+      ]
+    },
+    {
+      "day": 48,
+      "id": 95,
+      "path": "Day48/Question_95.c",
+      "source_sha256": "ec4eba36f14e84c1e6c73074ee1ce730f744ea5d2a192f4357336f755a6df6b5",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "two empty strings"
+        },
+        {
+          "status": "pass",
+          "case": "unequal lengths"
+        }
+      ]
+    },
+    {
+      "day": 48,
+      "id": 96,
+      "path": "Day48/Question_96.c",
+      "source_sha256": "f0e8b6c50533c625258f9917c04ac218b3ae6326bcf7be75526bfc8197db6f81",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "tabs and adjacent spaces"
+        }
+      ]
+    },
+    {
+      "day": 49,
+      "id": 97,
+      "path": "Day49/Question_97.c",
+      "source_sha256": "6e0f141a4f37e1ac0ba02538a0c1600e3ac80d9848ed9e5fedf5862d00a3dc49",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "extra whitespace"
+        }
+      ]
+    },
+    {
+      "day": 49,
+      "id": 98,
+      "path": "Day49/Question_98.c",
+      "source_sha256": "796c4db579b0511ba8f3df6ec24884ae8fb9d53f5af6b83a7d07491f45054b4a",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "one surname only"
+        }
+      ]
+    },
+    {
+      "day": 50,
+      "id": 99,
+      "path": "Day50/Question_99.c",
+      "source_sha256": "7df8a3034409695782c6f5924bd26b117cde7792ef159d31992db41a55fac447",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "leap day"
+        },
+        {
+          "status": "pass",
+          "case": "nonleap century"
+        }
+      ]
+    },
+    {
+      "day": 50,
+      "id": 100,
+      "path": "Day50/Question_100.c",
+      "source_sha256": "f086635c7bda907c25c956acc20b09a6d183b6232ca1c6449fd16cc7a73ae77b",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "repeated characters"
+        }
+      ]
+    },
+    {
+      "day": 51,
+      "id": 101,
+      "path": "Day51/Question_101.c",
+      "source_sha256": "ec79e737ec60fb4efa3e8ab95fe49ff680507fb711e88107983e62f3768131e9",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "all equal"
+        },
+        {
+          "status": "pass",
+          "case": "empty sorted input"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 52,
+      "id": 102,
+      "path": "Day52/Question_102.c",
+      "source_sha256": "156ba94f45ebb93a53d8d491ed2020d60b51afdb3d0ccedea574737b11020a19",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        },
+        {
+          "status": "pass",
+          "case": 4
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty ceiling"
+        },
+        {
+          "status": "pass",
+          "case": "duplicate ceiling before target gap"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 53,
+      "id": 103,
+      "path": "Day53/Question_103.c",
+      "source_sha256": "566cfeed1103ce6d731088fcb3e671d4335a56d9673aaab9d0f4dc2eec7b67bf",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "multiple pivots choose leftmost"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 54,
+      "id": 104,
+      "path": "Day54/Question_104.c",
+      "source_sha256": "2751bcd04c2cd90e53744d1d8e37ddecde30d79f40d0217804677f384206dcda",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "larger exact pivot"
+        },
+        {
+          "status": "pass",
+          "case": "32-bit upper bound"
+        }
+      ]
+    },
+    {
+      "day": 55,
+      "id": 105,
+      "path": "Day55/Question_105.c",
+      "source_sha256": "534051589a5126bc229a089186c7cccd7ded82550798d5653a8fbcb0f799f8ec",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "exactly half"
+        },
+        {
+          "status": "pass",
+          "case": "negative majority"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 56,
+      "id": 106,
+      "path": "Day56/Question_106.c",
+      "source_sha256": "0eba7ecefa1532b600df23fec1ef97781db15f1c807efa3fcd5cf8df39ade76c",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        },
+        {
+          "status": "pass",
+          "case": 4
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "equal is not greater"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 57,
+      "id": 107,
+      "path": "Day57/Question_107.c",
+      "source_sha256": "1528c22564bea773e3f36dd56296410b51f49e11a5ecfc5f715ddfaafa4c7ff2",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        },
+        {
+          "status": "pass",
+          "case": 4
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "skip equal neighbors"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 58,
+      "id": 108,
+      "path": "Day58/Question_108.c",
+      "source_sha256": "cb6919d0743ca49cde3bae30e78734bbaa49b352f265f625060b3899c709533a",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "two zeros"
+        },
+        {
+          "status": "pass",
+          "case": "single element empty product"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 59,
+      "id": 109,
+      "path": "Day59/Question_109.c",
+      "source_sha256": "211442b35c195c56c8084a5d5052474ff601ad7f6bdb98e85dcbd2c2b98ea0e0",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "all negative"
+        },
+        {
+          "status": "pass",
+          "case": "invalid width"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 60,
+      "id": 110,
+      "path": "Day60/Question_110.c",
+      "source_sha256": "b9dca97721715ff8cd9657272c2e59d7f6da49fa28a91e358570c93e3dd9c384",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "full negative window"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 61,
+      "id": 111,
+      "path": "Day61/Question_111.c",
+      "source_sha256": "4378a62018f4823237b67fdc43715d5e9a4b5b667bf633f57b89b7042deef0db",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "negative at exiting boundary"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 62,
+      "id": 112,
+      "path": "Day62/Question_112.c",
+      "source_sha256": "2f4d79615b15bdda9d1d0fe7cd2e0a0deebfb616424e99bf717d319fbf17ef34",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "one negative"
+        },
+        {
+          "status": "pass",
+          "case": "restart after negative prefix"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 63,
+      "id": 113,
+      "path": "Day63/Question_113.c",
+      "source_sha256": "ca2eb7760fa794c1df9d07bd8196b6c7c4108d00a8fb1846f16cf6490c1818ea",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "duplicates count separately"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 64,
+      "id": 114,
+      "path": "Day64/Question_114.c",
+      "source_sha256": "6ab1dda70d4b4b61c2ba6a51516d50fe1ad8f28a09db53d029cdb50ace57c848",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "repeat left of window"
+        },
+        {
+          "status": "pass",
+          "case": "empty quoted string"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 1"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 2"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 3"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 4"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 5"
+        },
+        {
+          "status": "pass",
+          "case": "reference vector 6"
+        }
+      ]
+    },
+    {
+      "day": 65,
+      "id": 115,
+      "path": "Day65/Question_115.c",
+      "source_sha256": "0987d6ca3d9ad0bb425c65ab3a51a507900ab3287d64d98825902d9802cffa42",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "two empty strings"
+        },
+        {
+          "status": "pass",
+          "case": "frequency mismatch in plain input"
+        }
+      ]
+    },
+    {
+      "day": 66,
+      "id": 116,
+      "path": "Day66/Question_116.c",
+      "source_sha256": "35f41a0542fcba906caf8691e8a200643520e1ac1dd88c56e7ecc503fa211297",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "no second matching index"
+        }
+      ]
+    },
+    {
+      "day": 67,
+      "id": 117,
+      "path": "Day67/Question_117.c",
+      "source_sha256": "9d341152cae5846db8213b1728ba95a7d157f38487ed65310b9a4a48aa25a7c3",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty first list"
+        },
+        {
+          "status": "pass",
+          "case": "duplicates across lists"
+        }
+      ]
+    },
+    {
+      "day": 68,
+      "id": 118,
+      "path": "Day68/Question_118.c",
+      "source_sha256": "321b40da22defced41531fd767ce435249910ba846d01a339d262593458eb7d6",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "missing upper endpoint"
+        },
+        {
+          "status": "pass",
+          "case": "empty list"
+        }
+      ]
+    },
+    {
+      "day": 69,
+      "id": 119,
+      "path": "Day69/Question_119.c",
+      "source_sha256": "2ea60c404f67a284652a260caa5901bdffd65fc257cac3cc873f26fa78632a9f",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "colliding values and negative repeat"
+        }
+      ]
+    },
+    {
+      "day": 70,
+      "id": 120,
+      "path": "Day70/Question_120.c",
+      "source_sha256": "af855f005a070393d48ce2e1892ab4f543852933ab0e17c95372579549a4783f",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "fail",
+          "details": [
+            {
+              "stream": "stdout",
+              "expected": "I Am Trying To Build Logic",
+              "actual": "I Am Trying To Build Logic.\n"
+            }
+          ],
+          "case": 1,
+          "source_issue": "All three examples use title case. Only this expected output drops the input's full stop. The program preserves punctuation and offers --sentence for sentence case."
+        },
+        {
+          "status": "pass",
+          "case": 2
+        },
+        {
+          "status": "pass",
+          "case": 3
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "punctuation preserved"
+        },
+        {
+          "status": "pass",
+          "case": "sentence case across sentence boundaries"
+        }
+      ]
+    },
+    {
+      "day": 71,
+      "id": 121,
+      "path": "Day71/Question_121.c",
+      "source_sha256": "adb4dcc3df97838193e61545ae58952a2a558ac2a4588cf2fa600514d39c71dd",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "note": "Run the published labelled input and also check the saved record.",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "multiword name and zero age"
+        },
+        {
+          "status": "pass",
+          "case": "labelled input"
+        }
+      ]
+    },
+    {
+      "day": 72,
+      "id": 122,
+      "path": "Day72/Question_122.c",
+      "source_sha256": "a96f2ce737b5dc9f1cef40b7d2c0fd0079178f51dbd69f7615cb2316d04265d9",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "note": "Materialize the named text file, decoding the written newline escape.",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty file"
+        },
+        {
+          "status": "pass",
+          "case": "file missing"
+        },
+        {
+          "status": "pass",
+          "case": "a line crossing multiple fgets buffers"
+        }
+      ]
+    },
+    {
+      "day": 73,
+      "id": 123,
+      "path": "Day73/Question_123.c",
+      "source_sha256": "9405f6c110525dae82113e51c469dcb1406e5793fb2a376ac5c0e10ee1865654",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "fail",
+          "details": [
+            {
+              "stream": "stdout",
+              "expected": "Characters: 31\nWords: 5\nLines: 2",
+              "actual": "Characters: 33\nWords: 6\nLines: 2\n"
+            }
+          ],
+          "note": "The described file has one newline and no final newline.",
+          "case": 1,
+          "source_issue": "The fixture contains 33 characters including its internal newline, six words and two lines."
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty file"
+        },
+        {
+          "status": "pass",
+          "case": "multiple whitespace and final newline"
+        },
+        {
+          "status": "pass",
+          "case": "count the published file independently"
+        }
+      ]
+    },
+    {
+      "day": 74,
+      "id": 124,
+      "path": "Day74/Question_124.c",
+      "source_sha256": "6fbc258e9abf45e4e9efc1150117094bca8e0ece06e56e463b5aa39c1858a070",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "note": "The destination filename comes from the expected output. Compare both files.",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "copy empty file to new path"
+        },
+        {
+          "status": "pass",
+          "case": "identical source and destination"
+        },
+        {
+          "status": "pass",
+          "case": "copy bytes including NUL CRLF and non-UTF-8"
+        },
+        {
+          "status": "pass",
+          "case": "missing source preserves existing destination"
+        }
+      ]
+    },
+    {
+      "day": 75,
+      "id": 125,
+      "path": "Day75/Question_125.c",
+      "source_sha256": "1eca835f024694619560ae2035e280cd956f9b30eb289cc0b12b47ecae8ca18a",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "note": "The fixture starts without a trailing newline. Verify that the appended sentence occupies a new line.",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "existing final newline"
+        },
+        {
+          "status": "pass",
+          "case": "empty destination"
+        }
+      ]
+    },
+    {
+      "day": 76,
+      "id": 126,
+      "path": "Day76/Question_126.c",
+      "source_sha256": "ed14d06557c8c9f44b733e810a6d219ce6f6cca6ec40897d8ef7fdb31aa627fb",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "descriptive",
+          "note": "The source omits the content and says to display it. Use a two-line fixture to check the stated behavior.",
+          "case": 1
+        },
+        {
+          "status": "pass",
+          "note": "Run in a fresh directory where nofile.txt is absent.",
+          "case": 2
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty existing file"
+        }
+      ]
+    },
+    {
+      "day": 77,
+      "id": 127,
+      "path": "Day77/Question_127.c",
+      "source_sha256": "d12dcf9622f461eee4ed4a52cf09933fd9c2384e36f210b1d27b30112f316aae",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "note": "The published expected value is output.txt's content. Compare that file and check for silent stdout.",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "digits and punctuation unchanged"
+        }
+      ]
+    },
+    {
+      "day": 78,
+      "id": 128,
+      "path": "Day78/Question_128.c",
+      "source_sha256": "93b35d97485dfdd83dde58d584f23f0db0327179ba5de9a4c46009620e6b4e03",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "note": "Materialize the named file.",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "ignore digits spaces and punctuation"
+        }
+      ]
+    },
+    {
+      "day": 79,
+      "id": 129,
+      "path": "Day79/Question_129.c",
+      "source_sha256": "9da2eb32c9f8a126fd853fa16ae14073c596442c6b1f325729d5319602e78a9e",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "note": "Materialize the named file.",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "empty list"
+        },
+        {
+          "status": "pass",
+          "case": "negative fractional mean"
+        }
+      ]
+    },
+    {
+      "day": 80,
+      "id": 130,
+      "path": "Day80/Question_130.c",
+      "source_sha256": "acce6b9e7732f0ded86a81778dc0bfeca96f7fdbf1d63af46010e69a3e834a67",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "note": "Run the published labelled record list and also check the saved records.",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "zero records"
+        },
+        {
+          "status": "pass",
+          "case": "fractional marks"
+        }
+      ]
+    },
+    {
+      "day": 81,
+      "id": 131,
+      "path": "Day81/Question_131.c",
+      "source_sha256": "425893437e3e843167b836f7027d25b3a19ae329dfb96568da84033e0da3e35e",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "enumeration endpoints and order"
+        }
+      ]
+    },
+    {
+      "day": 82,
+      "id": 132,
+      "path": "Day82/Question_132.c",
+      "source_sha256": "ae2f618d90710455a1157c03e35eeb7b9d9203ac6b11b87238938894e5c117ae",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "yellow light"
+        },
+        {
+          "status": "pass",
+          "case": "red light"
+        }
+      ]
+    },
+    {
+      "day": 83,
+      "id": 133,
+      "path": "Day83/Question_133.c",
+      "source_sha256": "88087938e23779115abd67d00d447ca54eaea72f5e1ad6dd187f42839d5df970",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "short month"
+        },
+        {
+          "status": "pass",
+          "case": "last month"
+        }
+      ]
+    },
+    {
+      "day": 84,
+      "id": 134,
+      "path": "Day84/Question_134.c",
+      "source_sha256": "b38f0b98eca17663ab649ceb39ed296694d1591e80437aad579d7b7e8822d294",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "timeout branch"
+        },
+        {
+          "status": "pass",
+          "case": "success branch"
+        }
+      ]
+    },
+    {
+      "day": 85,
+      "id": 135,
+      "path": "Day85/Question_135.c",
+      "source_sha256": "054f3b9e75a585f824928d75a5dffd17da276f0a3b1ce98ba83fd077089514ef",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "explicit base and successive values"
+        }
+      ]
+    },
+    {
+      "day": 86,
+      "id": 136,
+      "path": "Day86/Question_136.c",
+      "source_sha256": "16d5050f179e11658a924ce6bec804dd19c962a2568e4ee1eee8bbca625f3a6a",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "wide product"
+        },
+        {
+          "status": "pass",
+          "case": "subtraction order"
+        }
+      ]
+    },
+    {
+      "day": 87,
+      "id": 137,
+      "path": "Day87/Question_137.c",
+      "source_sha256": "612f40302c1ff79cb4a6070afd99ff10511d16feeaf1ebe8a67198e9b572d0bd",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "administrator role"
+        },
+        {
+          "status": "pass",
+          "case": "unknown role"
+        }
+      ]
+    },
+    {
+      "day": 88,
+      "id": 138,
+      "path": "Day88/Question_138.c",
+      "source_sha256": "1a24b7fd09db5b04e94e418a0780b5f3d03e075de0bbe55f16fbbb9b44a9bd52",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "all three values and separators"
+        }
+      ]
+    },
+    {
+      "day": 89,
+      "id": 139,
+      "path": "Day89/Question_139.c",
+      "source_sha256": "c1083b9bed04913c3722bc445a18b178cd4b39a91ef255412e260bb8bd58662d",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "integer values on one line"
+        }
+      ]
+    },
+    {
+      "day": 90,
+      "id": 140,
+      "path": "Day90/Question_140.c",
+      "source_sha256": "fa95826ec04b5022d0aad79fd09923f9edca09a45e73bd8425d8c86e4d294f62",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "alternate gender"
+        },
+        {
+          "status": "pass",
+          "case": "unlabelled enum input"
+        }
+      ]
+    },
+    {
+      "day": 91,
+      "id": 141,
+      "path": "Day91/Question_141.c",
+      "source_sha256": "d7dbfa6c9e88584c08fce370bd40d091a4f42dc1bd33c9c2c7e9c17565a56978",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "labelled multiword name"
+        },
+        {
+          "status": "pass",
+          "case": "unlabelled input"
+        }
+      ]
+    },
+    {
+      "day": 92,
+      "id": 142,
+      "path": "Day92/Question_142.c",
+      "source_sha256": "6b1286b7034e882230f85c22ced19f5a054d0011e426e053e3637f80061dd841",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "descriptive",
+          "note": "The source supplies neither records nor literal output. Check five identified test records against a tab-separated table.",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "same marks preserve record order"
+        }
+      ]
+    },
+    {
+      "day": 93,
+      "id": 143,
+      "path": "Day93/Question_143.c",
+      "source_sha256": "f569519c479b821490089de91b98b64c62d29dcf2d3598c1c053812182c487c5",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "tie keeps first student"
+        },
+        {
+          "status": "pass",
+          "case": "empty class"
+        }
+      ]
+    },
+    {
+      "day": 94,
+      "id": 144,
+      "path": "Day94/Question_144.c",
+      "source_sha256": "4fbd3ccac62a2672373776f6f801ddaeabe7f53adb1ca39db43570a76ce185a1",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "fractional marks"
+        }
+      ]
+    },
+    {
+      "day": 95,
+      "id": 145,
+      "path": "Day95/Question_145.c",
+      "source_sha256": "c9a3e63c1fd315859db107f201c287a250473d2fe5e6d5329f04f0453831061d",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "single student"
+        },
+        {
+          "status": "pass",
+          "case": "last student is highest"
+        }
+      ]
+    },
+    {
+      "day": 96,
+      "id": 146,
+      "path": "Day96/Question_146.c",
+      "source_sha256": "aeed0d31d5d9129174774ad7c8f5e330afcec397da07d73e71b99a7be88d7cc4",
+      "compiled": true,
+      "samples": [
+        {
+          "status": "pass",
+          "case": 1
+        }
+      ],
+      "edges": [
+        {
+          "status": "pass",
+          "case": "leap day and multiword name"
+        },
+        {
+          "status": "pass",
+          "case": "impossible date"
+        }
+      ]
+    }
+  ]
+}
